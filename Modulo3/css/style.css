@@ -1,0 +1,179 @@
+
+body {
+    font-size: 16px;
+   font-family:'Open Sans', sans-serif;
+   color: black;
+   background-color: #FEF9E7;
+
+}
+
+
+/** HEADER **/
+
+#header-nav{
+	background-color: #B4FF89;
+	 border-radius: 0;
+  border: 0;
+
+}
+.navbar-brand a{
+	font-family: 'Open Sans', sans-serif;
+  color:#000000;
+  font-size: 41px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  text-align: left;
+ 
+}
+#header-nav button {
+    margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #E6D8FF;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+
+.navbar-brand a:hover {
+    text-decoration: none;
+}
+
+#nav-list {
+    background-color: #80D27A;
+}
+
+#nav-list a {
+ 
+    font-weight: bolder;
+    color: black;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    
+    background-color: #9FF0D0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+
+/** END HEADER */
+
+
+/** HOME PAGE **/
+
+#main-content {
+    
+    font-family: 'Open Sans', sans-serif;
+  color:black;
+text-align: center;
+  font-weight: bold;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    margin-bottom: 1em;
+}
+#menu1{
+		background-color: #FFA7A7 ;
+		margin:10px 0px 25px;
+		
+
+	}
+	#menu1 h3{
+		font-size: 1.9em;
+		font-weight: bold;
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		color: black;
+	}
+		#menu1 p{
+
+		margin-top: 15px;
+		text-align: justify;
+		font-family: 'Open Sans', sans-serif;
+		color: black;
+	}
+	#menu2{
+		background-color: #D3FFF7 ;
+		margin:10px 0px 25px;
+	}
+	#menu2 h3{
+		font-size: 1.9em;
+		font-weight: bold;
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		color: black;
+	}
+	#menu2 p{
+		margin-top: 15px;
+		text-align: justify;
+		font-family: 'Open Sans', sans-serif;
+		color: black;
+	}
+	#menu3{
+		background-color: #E6D8FF ;
+		margin:10px 0px 25px;
+	}
+	#menu3 h3{
+		font-size: 1.9em;
+		font-weight: bold;
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		color: black;
+	}
+	#menu3 p{
+		margin-top: 15px;
+		text-align: justify;
+		font-family: 'Open Sans', sans-serif;
+		color: black;
+	}
+
+/** END HOME PAGE **/
+@media (max-width: 767px) {
+
+
+#menu{
+		padding:0 50px 0 50px;
+
+	}
+	#main-content h1{
+font-size: 5vw; /* 1vw = 1% of viewport width */
+	}
+	 #menu1 h3{
+  	font-size: 5vw; /* 1vw = 1% of viewport width */
+		
+	}
+	 #menu2 h3{
+  	font-size: 5vw; /* 1vw = 1% of viewport width */
+		
+	}
+	 #menu3 h3{
+  	font-size: 5vw; /* 1vw = 1% of viewport width */
+		
+	}
+	.navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand a { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+
+
+}
